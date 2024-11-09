@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import styles from './Home.module.css'; // Assuming you create a CSS module for styles
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export default function Home() {
     const [bin, setBin] = useState('');
